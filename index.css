@@ -1,0 +1,252 @@
+
+
+*{ margin: 0px;
+padding: 0px;
+box-sizing:border-box;}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;}
+    
+.ows{display: none; 
+}
+
+
+nav{border: 3px solid rgb(52, 52, 85);                     
+
+
+background-color: #eae6f5;}
+
+nav .container {
+    display: flex;
+   align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+  
+
+}
+.logo{display: flex;}
+nav .logo i{padding: 10px 20px 0 0;
+font-size:30px;}
+nav .logo p{ font-size: 40px;
+    color: blueviolet;
+    text-transform: capitalize;
+    
+   
+}
+.linkdiv a{ text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-right:50px;
+    color: black;
+
+
+}
+
+    .div_but a{font-size: 30px;
+        text-transform: capitalize;
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 30px;
+        color: blue;
+       
+
+    }
+   
+   .div_but button{ color:aliceblue;
+        text-transform: capitalize;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: blue;
+        margin-left: 30px;
+        
+
+    }
+    @media (max-width:1364px){  
+        .ows{display: block;
+            font-size: 40px;}
+        .div_but{ display: none;}
+       
+        .mainsection .container{ flex-direction: column;
+        align-items: center;}
+
+        footer .container{ flex-direction: column;
+             }
+             footer .container.welcomdiv{ font-size: 30px;}
+        footer .inp_div{ display: flex;
+        flex-direction: column;
+   }
+        footer .inp_div input{
+
+        margin-bottom: 10px;
+        border-radius: 8px;
+        
+        
+    }
+    .inp_div .submetinpt{
+        padding: 20px;
+    }
+    @media(max-width:1442px){ 
+        .ows{display: block;}
+        .div_but{ display: none;}
+       
+        .mainsection .container{ flex-direction: column;
+        align-items: center;}
+}
+
+    }
+    @media(max-width:1466px){
+
+
+        footer .container{ flex-direction: column;
+             }
+             footer .container.welcomdiv{ font-size: 30px;}
+        footer .inp_div{ display: flex;
+        flex-direction: column;
+   }
+        footer .inp_div input{
+
+        margin-bottom: 10px;
+        border-radius: 8px;
+        
+        
+    }
+
+    .inp_div .submetinpt{
+        padding: 20px;
+    }}
+    @media(max-width:1010px){ nav .linkdiv{display: none;}}
+    
+    .f_section{
+        text-align: center;
+        padding-top: 20px;
+        height: 400px;
+        margin-top: 20px;
+    }
+    h1{ margin-top: 20px;
+        font-size:45px;
+        text-transform: capitalize;
+
+    }
+    .f_section p{ color: blue;
+        text-transform: uppercase;
+        padding-top: 20px;
+    margin-top: 40px;} 
+
+
+        .mainsection{ 
+            
+           padding: 40px 0;
+           
+        }
+        .mainsection .container{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            }
+
+
+        
+        .container div{
+            margin: 0 15px;
+        }
+      
+
+        .mainsection .maindiv1{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin-right: 30px;
+
+        }
+        .maindiv1 h2{
+            margin: 20px 0;
+            text-transform: capitalize;
+            font-size: 28px;
+        }
+        .maindiv1 .parg{ margin: 20px;}
+
+
+     .parg2{
+    margin-top:40px;} 
+
+
+
+
+        
+        .maindiv2 section{
+            display: flex;
+            margin-bottom: 60px;
+
+        }
+        .maindiv2 section h3{
+font-size: 26px;
+text-transform: capitalize;
+
+        }
+
+        .maindiv2 section span{ margin-top: 20px;}
+
+
+        footer{
+          
+            background-color: rgb(57, 57, 241);
+        margin-top: 20px;
+        }
+
+        footer .container{
+          height: 100%;
+            background-color: rgb(57, 57, 241);
+            color: #fff;
+            display: flex;
+            margin-top: 30px;
+     justify-content: space-between;
+       
+        }
+        .weldiv{margin-top: 40px;}
+        footer .welcomdiv{
+            font-size: 25px;
+            color: #fff;
+            text-transform: capitalize;
+            margin: 20px 0;
+            padding-top: 40px ;
+        }
+
+        footer .inp_div{
+           
+            padding-top: 40px; 
+            margin: 20px 0;
+            text-transform: capitalize;
+            
+        }
+        .inp_div div{ display: flex;}
+        
+        .inp_div .emailinp{color: black;
+            font-size:20px;
+        padding: 20px 30px;
+        margin-right: 20px;
+        text-transform: capitalize;
+      
+  
+    }
+            
+   
+.inp_div .submetinpt{
+    color: #fff; 
+        font-size:20px;
+        background-color: blue;
+        padding: 20px 30px;
+
+
+}
+.inp_div .end_par{ 
+    margin-top: 20px ;
+    padding: 20px;
+}

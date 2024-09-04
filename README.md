@@ -1,2 +1,4 @@
-# day2
-test repo
+# responsive design 
+
+html 
+css display:flex ,@media
